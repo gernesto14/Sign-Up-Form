@@ -1,3 +1,9 @@
-body{
-    background-color: rgb(209, 183, 135);
+body {
+  background-color: rgb(209, 183, 135);
+  border-color: black;
+  border-width: 1px;
+  border-style: groove;
+  width: 750px;
+  min-height: 90vh;
+  margin: 80px  auto auto ;
 }

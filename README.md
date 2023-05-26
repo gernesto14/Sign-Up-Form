@@ -1,9 +1,10 @@
 # Sign-Up-Form
- Sign-up form for an imaginary service
+
+Sign-up form for an imaginary service
 
 Project source: https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form
 
-Live deployment: 
+Live deployment: https://gernesto14.github.io/Sign-Up-Form/
 
 Introduction
 This project is intended to give you a chance to flex some of the new items you’ve been absorbing over the past few lessons. This time it’s a sign-up form for an imaginary service.
