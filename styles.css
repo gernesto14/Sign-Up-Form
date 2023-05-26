@@ -1,9 +1,35 @@
 body {
-  background-color: rgb(209, 183, 135);
-  border-color: black;
-  border-width: 1px;
-  border-style: groove;
-  width: 750px;
-  min-height: 90vh;
-  margin: 80px  auto auto ;
+  background-color: rgb(199, 161, 113);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: rgb(199, 161, 113);
+  height: 97vh;
+  width: 95vw;
+  margin: 30px auto;
+}
+
+.left-side {
+  border: solid;
+  background-color: rgb(109, 209, 187);
+  display: grid;
+  align-content: center;
+  padding: 20% 10% 50% 10%;
+}
+
+.welcome-text > .p1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.welcome-text > .p2 {
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.right-side {
+  border: solid;
 }
