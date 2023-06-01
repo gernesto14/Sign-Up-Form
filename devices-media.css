@@ -16,7 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 90vh;
     align-content: start;
     justify-content: center;
   }
@@ -44,6 +44,6 @@
   .photo-credit {
     justify-self: end;
     margin-right: 30px;
-    margin-top: 230px;
+    margin-top: 45vh;
   }
 }
