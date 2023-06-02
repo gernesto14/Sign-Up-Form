@@ -31,7 +31,7 @@
   }
   .p2 {
     color: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 1.1;
     backdrop-filter: blur(1%) saturate(90%);
     text-shadow: 3px 3px 5px #110f0f;
@@ -49,15 +49,16 @@
 
   .right-side {
     align-content: center;
+    max-width: 500px;
+    margin: auto;
   }
 
   .form {
     justify-content: center;
-    margin: auto;
     display: grid;
-    max-width: 200px;
     grid-template-rows: repeat(9, 30px);
     gap: 4px;
+    width: 220px;
   }
   .sign-up {
     text-align: center;
