@@ -17,6 +17,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    width: 101vw;
     align-content: start;
     justify-content: center;
   }
@@ -45,5 +46,14 @@
     justify-self: end;
     margin-right: 30px;
     margin-top: 45vh;
+  }
+
+  .right-side {
+    align-content: center;
+  }
+
+  form {
+    display: grid;
+    grid-template-rows: auto;
   }
 }
