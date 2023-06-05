@@ -1,7 +1,7 @@
 /* Devices with less than 420px screen with */
-@media (max-width: 820px) {
+@media (max-width: 430px) {
   body {
-    min-width: 500px;
+    max-width: 430px;
   }
   .main-container {
     display: flex;
@@ -35,7 +35,7 @@
     line-height: 1.1;
     backdrop-filter: blur(1%) saturate(90%);
     text-shadow: 3px 3px 5px #110f0f;
-    max-width: 450px;
+    max-width: 430px;
     text-align: justify;
     justify-self: center;
   }
@@ -49,7 +49,7 @@
 
   .right-side {
     align-content: center;
-    max-width: 500px;
+    max-width: 430px;
     margin: auto;
   }
 
