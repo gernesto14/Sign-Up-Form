@@ -2,7 +2,7 @@
   font-family: "Oswald";
 }
 
-body{
+body {
   min-width: 1100px;
 }
 
@@ -20,14 +20,15 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-content: start;
   justify-content: start;
   min-width: 500px;
+  height: inherit;
   padding: 20% 10% 50% 10%;
-  
 }
-.welcome-text{
+.welcome-text {
   max-width: 550px;
 }
 .welcome-text > .p1 {
@@ -37,11 +38,11 @@ body{
   width: inherit;
   color: rgb(247, 247, 247);
   text-shadow: 2px 2px 10px #07090b;
-  
 }
 
-.photo-credit{
-  align-content: end;
+.photo-credit {
+  justify-content: end;
+  padding-top: 1px;
 }
 
 .welcome-text > .p2 {
