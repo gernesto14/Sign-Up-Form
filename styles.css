@@ -1,7 +1,9 @@
-:root {
-  font-family: "Oswald";
+.p1 {
+  font-weight: 900;
+  font-family: "Labrada";
 }
 
+<<<<<<< HEAD
 body {
   min-width: 1100px;
 }
@@ -71,18 +73,9 @@ body {
   grid-gap: 10px;
   min-width: 450px;
 }
+=======
+>>>>>>> 737ca3e152ab0fe3fa3c7b983827f9c81a8c43c0
 
-.names {
-  display: grid;
-  grid-template-columns: 49% 49%;
-  gap: 8px;
-}
-
-.form > .sign-up {
-  font-size: 3rem;
-  font-weight: 800;
-}
-
-.btn {
-  color: yellow;
+.password-message{
+  font-size: 0.8rem;
 }
