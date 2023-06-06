@@ -86,8 +86,3 @@
     text-overflow: initial;
   }
 }
-
-@media (min-width: 651px) {
-  body {
-  }
-}
