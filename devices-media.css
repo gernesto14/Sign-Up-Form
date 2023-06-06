@@ -1,8 +1,7 @@
 /* Devices with less than 420px screen with */
-@media (max-width: 1230px) {
+@media (max-width: 620px) {
   body {
     /* background-color: bisque; */
-    background-color: rgb(56, 161, 75);
     margin: 0;
   }
 
@@ -10,6 +9,7 @@
     display: flex;
     flex-direction: column;
     width: auto;
+    min-width: 250x;
   }
 
   .left-side {
@@ -17,24 +17,24 @@
     /* font-family: "Oswald", sans-serif; */
     /* font-family: "Roboto Slab", serif; */
 
-    background-color: rgb(15, 169, 235);
+    background-color: rgb(18, 94, 126);
     background-image: url(images/alexander-grey-TZZwC_xsClY-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
     display: grid;
     grid-template-rows: 2fr 1fr 3fr;
-
   }
 
   .p1 {
     margin: auto;
     font-weight: 900;
     font-size: 8rem;
-    padding-top: 10%;
+    padding: 10% 4px 0 4px;
+
     color: rgb(244, 244, 240);
     text-shadow: 0px 12px 10px black;
-    line-height:1;
+    line-height: 1;
     text-align: center;
     text-size-adjust: 9;
     height: auto;
@@ -48,25 +48,46 @@
     font-size: 1.5rem;
     color: rgb(244, 244, 240);
     text-shadow: -2px 2px 3px black;
-    line-height:1;
+    line-height: 1;
     text-align: justify;
-    
   }
 
-  .photo-credit{
+  .photo-credit {
+    display: flex;
+    justify-content: end;
+  }
+  .photo-credit > div {
     text-align: right;
-    padding-right: 10px;
-    margin-top: 90%;
-    position: fixed;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    align-self: end;
   }
 
   .right-side {
-    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    font-size: 1rem;
+  }
+
+  .sign-up {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+  .names {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .password-message {
+    font-size: 0.8rem;
+    text-overflow: initial;
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 651px) {
   body {
-    background-color: bisque;
   }
 }
