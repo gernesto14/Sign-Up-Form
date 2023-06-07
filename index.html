@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-    />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./devices-media.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,200;0,400;1,900&family=Oswald:wght@700&family=Roboto+Slab:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./devices-media.css" />
-    <title>Sign-Up Form</title>
+    <title>Sign-Up</title>
   </head>
   <body>
     <div class="main-container">
@@ -58,8 +60,20 @@
         <div class="password-message">
           Password must be at least 8 characters long.
         </div>
-        <button class="btn btn-primary btn-sm" type="button">Sign-up</button>
-        <div class="form-label">Already a member? <a href="">Sign-in</a></div>
+        <button
+          class="btn btn-primary"
+          type="button"
+          style="
+            --bs-btn-padding-y: 0.25rem;
+            --bs-btn-padding-x: 1.5rem;
+            --bs-btn-font-size: 1rem;
+          "
+        >
+          Sign-up
+        </button>
+        <div class="form-label">
+          Already a member? <a href="index.html">Sign-in</a>
+        </div>
       </div>
     </div>
 
